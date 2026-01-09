@@ -18,10 +18,11 @@ compare machine learning approaches for time-series regression.
   - Random Forest, Gradient Boosting
 - Residual diagnostics and error analysis
 
-## Key Findings
-- Regularized linear models outperform tree-based models
-- Ridge Regression provides best stability and lowest error
-- Residuals show volatility clustering but no systematic bias
+## Key Results
+- Ridge Regression closely tracks actual closing prices across the full time horizon.
+- RMSE and MAE indicate stable predictive performance on unseen data.
+- Residuals are centered around zero, confirming the model is unbiased.
+- Residual variance increases during high-volatility periods (e.g., 2020), highlighting market regime effects.
 
 ## Business Use Case
 - Long-term price tracking
