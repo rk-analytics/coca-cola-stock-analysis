@@ -36,3 +36,18 @@ compare machine learning approaches for time-series regression.
 ## Tools
 Python, Pandas, NumPy, Scikit-learn, Matplotlib
 
+## Repository Structure
+
+- **Coca-Cola_stock_history.csv**  
+  Historical daily stock price data used for modeling and analysis.
+
+- **coca_cola_stock_analysis.ipynb**  
+  End-to-end data analysis and Ridge Regression modeling notebook.
+
+- **tableau_stock_model_output.csv**  
+  Model predictions and residuals exported for Tableau visualization.
+
+- **Stock_Price_Prediction_Ridge_Regression.twbx**  
+  Interactive Tableau dashboard for model evaluation and residual diagnostics.
+
+
